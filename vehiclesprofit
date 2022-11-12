@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    //declare a variable
+    int profit, buyingprice,sellingprice;
+
+    //initialise variable
+    cout<<"Enter buying price ";
+    cin>>buyingprice;
+    cout<<"Enter selling price ";
+    cin>>sellingprice;
+
+    //calculations
+    profit="sellingprice"-"buyingprice";
+
+    cout<<"profit ="<<sellingprice<<"-"<<buyingprice<<endl;
+    cin>>profit;
+    cout<<"=";
+    return 0;
+}
